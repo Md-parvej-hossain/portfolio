@@ -27,7 +27,7 @@ const Contact = () => {
               <MdOutlineMailOutline className="text-3xl text-[#F8B90C]" />
             </figure>
             <div className="card-body items-center text-center text-white">
-              <h2 className="card-title text-2xl font-bold">Md Parvej</h2>
+              <h2 className="card-title text-2xl font-bold">Freelancer</h2>
               <p className="text-lg">Web Developer (MERN)​</p>
             </div>
           </div>
