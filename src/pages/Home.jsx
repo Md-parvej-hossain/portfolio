@@ -3,6 +3,7 @@ import Ido from '../componant/Ido';
 import Projact from '../componant/Projact';
 import Skille from '../componant/Skille';
 import pro from '../assets/pro.jpg';
+import { NavLink } from 'react-router';
 
 const Home = () => {
   return (
@@ -28,7 +29,9 @@ const Home = () => {
               passionate about making error-free websites. I am good at React. I
               love to talk with you about your unique.
             </p>
-            <button className="btn btn-primary bg-[#F8B90C]">Contact</button>
+            <NavLink to={'/contacts'} className="btn btn-primary bg-[#F8B90C]">
+              Contact
+            </NavLink>
           </div>
         </div>
       </div>
