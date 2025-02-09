@@ -2,6 +2,7 @@ import Contact from '../componant/Contact';
 import Ido from '../componant/Ido';
 import Projact from '../componant/Projact';
 import Skille from '../componant/Skille';
+import pro from '../assets/pro.jpg';
 
 const Home = () => {
   return (
@@ -10,7 +11,8 @@ const Home = () => {
         <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
           <div className="flex justify-center items-center w-full h-full">
             <img
-              src="https://i.ibb.co.com/ym8wVg49/Whats-App-Image-2025-02-05-at-15-55-02-80d5502e.jpg"
+              // src="https://i.ibb.co.com/ym8wVg49/Whats-App-Image-2025-02-05-at-15-55-02-80d5502e.jpg"
+              src={pro}
               className="shadow-2xl object-cover rounded-full w-[400px] h-[400px] lg:mr-10"
             />
           </div>

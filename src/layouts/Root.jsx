@@ -5,7 +5,7 @@ import Footer from '../componant/Footer';
 const Root = () => {
   return (
     <div>
-      <div className="w-11/12 mx-auto">
+      <div className="min-h-[calc(100vh)] w-11/12 mx-auto">
         <Navbare />
         <Outlet />
       </div>

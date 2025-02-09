@@ -4,13 +4,13 @@ const Navbare = () => {
   const navLink = (
     <>
       <li className="hover:bg-[#F8B90C] hover:rounded-3xl  mx-2">
-        <NavLink>Home</NavLink>
+        <NavLink to={'/'}>Home</NavLink>
       </li>
       <li className="hover:bg-[#F8B90C] hover:rounded-3xl  mx-2">
-        <NavLink>About Me</NavLink>
+        <NavLink to={'/about'}>About Me</NavLink>
       </li>
       <li className="bg-[#F8B90C] rounded-3xl ">
-        <NavLink>Say Hello</NavLink>
+        <NavLink to={'/contacts'}>Say Hello</NavLink>
       </li>
     </>
   );

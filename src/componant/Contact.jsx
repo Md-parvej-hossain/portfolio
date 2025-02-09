@@ -6,7 +6,7 @@ const Contact = () => {
     <div>
       <section className="my-8">
         <div className="text-center text-white py-10">
-          <h1 className="text-6xl font-bold py-4">Contact​ </h1>
+          <h1 className="text-6xl font-bold py-4">Contact</h1>
           <p className="text-2xl font-bold text-[#F8B90C]">
             {' '}
             Are You Looking For Your Business Online Presence? I am here. 🙂
