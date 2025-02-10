@@ -9,7 +9,7 @@ const Navbare = () => {
       <li className="hover:bg-[#F8B90C] hover:rounded-3xl  mx-2">
         <NavLink to={'/about'}>About Me</NavLink>
       </li>
-      <li className="bg-[#F8B90C] rounded-3xl ">
+      <li className="bg-[#F8B90C] rounded-3xl ml-2">
         <NavLink to={'/contacts'}>Say Hello</NavLink>
       </li>
     </>
@@ -41,13 +41,13 @@ const Navbare = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 -ml-37  w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content text-lg font-semibold rounded-box z-1 mt-3 -ml-37 w-52 p-2 shadow"
             >
               {navLink}
             </ul>
           </div>
         </div>
-        <div className="navbar-end hidden  lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal text-lg font-semibold px-1">
             {navLink}
           </ul>
