@@ -56,10 +56,7 @@ const Ido = () => {
             </h2>
 
             <h2 className="text-2xl font-bold">PROBLEM SOLVING </h2>
-            <p className="py-2">
-              I’m a Front End Web developer who is passionate about making
-              error-free websites with 100% client satisfaction.
-            </p>
+            <p className="py-2">Provlame solving is my fabrite works.</p>
             <div className="card-actions justify-start">
               <button className="btn">
                 Say Hello <FaArrowRight className="text-[#F8B90C]" />
